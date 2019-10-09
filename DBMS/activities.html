@@ -204,7 +204,7 @@ Amity University Uttar Pradesh,
 Sector-125, Noida-201303<br>
 
 <br>
-		              <i class="fa fa-phone fa-lg"></i>  +91 7350422112/+91 9999035887<br>
+		              <i class="fa fa-phone fa-lg"></i>   +91 8377984216/+91 9540009965<br>
                   
 		           </address>
                 </div>
@@ -239,95 +239,8 @@ Sector-125, Noida-201303<br>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="canvas.js"></script>
-   
-    <script src="requestAnimFrame.js"></script>
-    <script>( function($) {
-  
-  $(document).ready(function() {
-    
-    var s           = $('.slider'),
-        sWrapper    = s.find('.slider-wrapper'),
-        sItem       = s.find('.slide'),
-        btn         = s.find('.slider-link'),
-        sWidth      = sItem.width(),
-        sCount      = sItem.length,
-        slide_date  = s.find('.slide-date'),
-        slide_title = s.find('.slide-title'),
-        slide_text  = s.find('.slide-text'),
-        slide_more  = s.find('.slide-more'),
-        slide_image = s.find('.slide-image img'),
-        sTotalWidth = sCount * sWidth;
-    
-    sWrapper.css('width', sTotalWidth);
-    sWrapper.css('width', sTotalWidth);
-    
-    var clickCount  = 0;
-    
-    btn.on('click', function(e) {
-      e.preventDefault();
 
-      if( $(this).hasClass('next') ) {
-        
-        ( clickCount < ( sCount - 1 ) ) ? clickCount++ : clickCount = 0;
-      } else if ( $(this).hasClass('prev') ) {
-        
-        ( clickCount > 0 ) ? clickCount-- : ( clickCount = sCount - 1 );
-      }
-      TweenMax.to(sWrapper, 0.4, {x: '-' + ( sWidth * clickCount ) })
-
-
-      //CONTENT ANIMATIONS
-
-      var fromProperties = {autoAlpha:0, x:'-50', y:'-10'};
-      var toProperties = {autoAlpha:0.8, x:'0', y:'0'};
-
-      TweenLite.fromTo(slide_image, 1, {autoAlpha:0, y:'40'}, {autoAlpha:1, y:'0'});
-      TweenLite.fromTo(slide_date, 0.4, fromProperties, toProperties);
-      TweenLite.fromTo(slide_title, 0.6, fromProperties, toProperties);
-      TweenLite.fromTo(slide_text, 0.8, fromProperties, toProperties);
-      TweenLite.fromTo(slide_more, 1, fromProperties, toProperties);
-
-    });
-          
-  });
-})(jQuery);
-
-$('.overlay').addClass('overlay-blue');</script>
-    
-     <script>$(function() {
-	$(".btn").click(function() {
-		$(".form-signin").toggleClass("form-signin-left");
-    $(".form-signup").toggleClass("form-signup-left");
-    $(".frame").toggleClass("frame-long");
-    $(".signup-inactive").toggleClass("signup-active");
-    $(".signin-active").toggleClass("signin-inactive");
-    $(".forgot").toggleClass("forgot-left");   
-    $(this).removeClass("idle").addClass("active");
-	});
-});
-
-$(function() {
-	$(".btn-signup").click(function() {
-  $(".nav").toggleClass("nav-up");
-  $(".form-signup-left").toggleClass("form-signup-down");
-  $(".success").toggleClass("success-left"); 
-  $(".frame").toggleClass("frame-short");
-	});
-});
-
-$(function() {
-	$(".btn-signin").click(function() {
-  $(".btn-animate").toggleClass("btn-animate-grow");
-  $(".welcome").toggleClass("welcome-left");
-  $(".cover-photo").toggleClass("cover-photo-down");
-  $(".frame").toggleClass("frame-short");
-  $(".profile-photo").toggleClass("profile-photo-down");
-  $(".btn-goback").toggleClass("btn-goback-up");
-  $(".forgot").toggleClass("forgot-fade");
-	});
-});
-     </script> 
+     
     </body>
 
 

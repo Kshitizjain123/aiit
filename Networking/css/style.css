@@ -877,11 +877,9 @@ a.btn-goback:hover {
   
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
 
-.flip-card-front, .flip-card-back {
+
+.flip-card-front{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -889,21 +887,16 @@ a.btn-goback:hover {
 }
 
 .flip-card-front {
-  background-color:white;
+  background-color:orange;
   color: black;
-    border-radius: 95px;box-shadow:0px 0px 20px 0px;
+   
 }
 
-.flip-card-back {
-  background-color:white;
-  
-  transform: rotateY(180deg);
-    border-radius: 95px;box-shadow:0px 0px 20px 0px;
-}
+
 .flip-card {
 
   width: 300px;
-  height: 400px;
+  height: 500px;
   perspective: 1000px;
     cursor: pointer; 
 }
