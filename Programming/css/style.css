@@ -1105,7 +1105,7 @@ canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container
 }
 @media screen and (max-width: 490px) {
   .text3 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 350px) {
