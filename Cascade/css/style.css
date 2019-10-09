@@ -269,10 +269,11 @@ ol{margin:0;padding:0;list-style-type:none}
 	{background-color:#3f0d12;
 background-image:linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);bottom:90%;transform:rotateX(-90deg) translate3d(0,0,75px)}
 
-.menu > ol:first-child > .menu-item:nth-of-type(1) > a:before{content:"Home"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > a:before{content:"Activities"}
-.menu > ol:first-child > .menu-item:nth-of-type(3) > a:before{content:"AboutUs"}
-.menu > ol:first-child > .menu-item:nth-of-type(4) > a:before{content:"ContactUs"}
+.menu > ol:first-child > .menu-item:nth-of-type(1) > a:before{content:"Clubs Bulletin"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > a:before{content:"Home"}
+.menu > ol:first-child > .menu-item:nth-of-type(3) > a:before{content:"Activities"}
+.menu > ol:first-child > .menu-item:nth-of-type(4) > a:before{content:"AboutUs"}
+.menu > ol:first-child > .menu-item:nth-of-type(5) > a:before{content:"ContactUs"}
 
 
 

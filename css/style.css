@@ -1,3 +1,7 @@
+html{
+scroll-behavior: smooth;
+}
+
 ol{margin:0;padding:0;list-style-type:none}
 
 header {
@@ -134,15 +138,15 @@ header {
 
 .menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item > a:before{transform:rotateY(-90deg) translate3d(0,0,75px)}
 .menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(1) > a:before{content:"Android"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(2) > a:before{content:"Cascade"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(3) > a:before{content:"Programming"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(4) > a:before{content:"Networking"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(2) > a:before{content:"A.I"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(3) > a:before{content:"BluePrint"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(4) > a:before{content:"Cascade"}
 .menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(5) > a:before{content:"Cultural"}
 .menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(6) > a:before{content:"DBMS"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(7) > a:before{content:"BluePrint"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(8) > a:before{content:"A.I"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(9) > a:before{content:"Aperture"}
-.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(10) > a:before{content:"HVCO"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(7) > a:before{content:"HVCO"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(8) > a:before{content:"Networking"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(9) > a:before{content:"Photography"}
+.menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:nth-of-type(10) > a:before{content:"Programming"}
 .menu > ol:first-child > .menu-item:nth-of-type(2) > .sub-menu > .menu-item:hover > a{transform:rotateY(90deg)}
 
 .menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item > a:before{transform:rotateY(-90deg) translate3d(0,0,75px)}
@@ -150,7 +154,7 @@ header {
 .menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(2) > a:before{content:"Founder President's Message"}
 .menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(3) > a:before{content:"Vice Chancelor's Message"}
 .menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(4) > a:before{content:"Director's Message"}
-.menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:nth-of-type(5) > a:before{content:"Club President's Message"}
+
 
 .menu > ol:first-child > .menu-item:nth-of-type(3) > .sub-menu > .menu-item:hover > a{transform:rotateY(90deg)}
 .menu > ol:first-child > .menu-item:hover > .sub-menu{display:block}
